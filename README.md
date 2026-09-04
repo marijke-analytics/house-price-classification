@@ -89,6 +89,3 @@ Bei Fragen oder Interesse an Zusammenarbeit:
 **E-Mail:** marijke.haupt@gmx.de  
 **GitHub:** https://github.com/marijke-analytics
 
-**E-Mail:** marijke.haupt@gmx.de  
-**GitHub:** https://github.com/marijke-analytics
-
