@@ -1,40 +1,61 @@
-# house-price-classification
-Machine Learning Classification Project – Predicting Above/Below Median House Prices
-
-# 🏠 Immobilienpreis‑Vorhersage (Machine Learning)
-
-## 📌 Überblick
-Ziel des Projekts ist die Klassifikation, ob ein Hauspreis über oder unter dem Median liegt.  
-Das Projekt umfasst vollständige EDA, Feature Engineering, mehrere ML‑Modelle und einen Modellvergleich.
+# 🏠 House Price Classification  
+**Machine Learning Projekt – Vorhersage von Immobilienpreisen (Above/Below Median)**
 
 ---
 
-## 🎯 Ziele
-- Explorative Datenanalyse  
+## 🔒 Urheberrechtshinweis  
+Dieses Projekt ist urheberrechtlich geschützt. Der Code und die Inhalte dürfen ausschließlich zur fachlichen Evaluation genutzt werden. Eine Weiterverwendung, Veröffentlichung oder Modifikation ist ohne schriftliche Zustimmung der Urheberin nicht gestattet.
+
+---
+
+## 📌 Projektüberblick  
+Dieses Projekt untersucht, ob der Preis einer Immobilie **über** oder **unter** dem Median liegt.  
+Dazu wird ein vollständiger Machine‑Learning‑Workflow umgesetzt:
+
+- Datenbereinigung  
+- Explorative Datenanalyse (EDA)  
 - Feature Engineering  
-- Training verschiedener Klassifikationsmodelle  
-- Modellbewertung & Vergleich  
+- Training mehrerer Klassifikationsmodelle  
+- Modellvergleich & Evaluation  
 - Visualisierung der wichtigsten Zusammenhänge  
 
+Die Daten basieren auf einer vereinfachten Version des **Ames Housing Dataset**.
+
 ---
 
-## 🧠 Methoden & Modelle
+## 🎯 Ziele  
+- Verständnis der Datenstruktur  
+- Identifikation relevanter Merkmale  
+- Vergleich verschiedener Klassifikationsalgorithmen  
+- Bewertung der Modellgüte  
+- Ableitung prädiktiver Zusammenhänge  
+
+---
+
+## 🧠 Modelle & Methoden  
+**Klassifikationsmodelle:**  
 - Logistische Regression  
-- K‑Nearest Neighbors  
-- Random Forest  
+- K‑Nearest Neighbors (KNN)  
+- Random Forest Classifier  
+
+**Evaluationsmetriken:**  
+- Accuracy  
 - Confusion Matrix  
 - ROC/AUC  
 - Feature Importance  
 
 ---
 
-## 📊 Visualisierungen
-- Heatmaps  
-- Boxplots  
-- Histogramme  
-- Korrelationsmatrix  
+## 📊 Visualisierungen  
+Das Projekt enthält verschiedene Visualisierungen zur Datenanalyse:
 
-Alle Visualisierungen liegen im Ordner `visuals/`.
+- Histogramme  
+- Boxplots  
+- Heatmaps  
+- Korrelationsmatrix  
+- Feature‑Importance‑Plots  
+
+Alle Grafiken liegen im Ordner `visuals/`.
 
 ---
 
@@ -49,13 +70,24 @@ project/
 
 ---
 
-## 🚀 Ergebnisse
-Der **Random Forest** liefert die beste Performance und zeigt robuste Ergebnisse gegenüber Feature‑Variationen.
+## 🚀 Ergebnisse  
+Der **Random Forest** zeigt die beste Performance und ist robust gegenüber Ausreißern und 
+nicht-linearen Zusammenhängen.  
+Die wichtigsten prädiktiven Merkmale sind u. a.:
+
+- OverallQual  
+- FullBath  
+- GarageArea  
+- TotalBsmtSF  
+- Fireplaces  
 
 ---
 
-## 📬 Kontakt
+## 📬 Kontakt  
 Bei Fragen oder Interesse an Zusammenarbeit:
+
+**E-Mail:** marijke.haupt@gmx.de  
+**GitHub:** https://github.com/marijke-analytics
 
 **E-Mail:** marijke.haupt@gmx.de  
 **GitHub:** https://github.com/marijke-analytics
