@@ -23,6 +23,7 @@ Die Daten basieren auf einer vereinfachten Version des **Ames Housing Dataset**.
 
 ---
 
+
 ## 🎯 Ziele  
 - Verständnis der Datenstruktur  
 - Identifikation relevanter Merkmale  
@@ -58,7 +59,7 @@ Das Projekt enthält verschiedene Visualisierungen zur Datenanalyse:
 Alle Grafiken liegen im Ordner `visuals/`.
 
 ---
-
+```
 ## 📁 Projektstruktur
 project/
 ├── data/          # Rohdaten oder Beispiel-Datensätze
@@ -66,7 +67,7 @@ project/
 ├── src/           # Python-Skripte
 ├── visuals/       # Plots & Grafiken
 └── docs/          # Dokumentation
-
+```
 
 ---
 
