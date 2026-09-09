@@ -64,9 +64,6 @@ Alle Grafiken liegen im Ordner `visuals/`.
 project/
 ├── data/          # Rohdaten oder Beispiel-Datensätze
 ├── notebooks/     # Jupyter Notebooks (EDA, Modelle)
-├── src/           # Python-Skripte
-├── visuals/       # Plots & Grafiken
-└── docs/          # Dokumentation
 ```
 
 ---
